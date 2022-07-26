@@ -34,7 +34,7 @@ let package = Package(
         .binaryTarget(
             name: "LarkLogin",
             url: "https://github.com/Authing/authing-binary/releases/download/1.0.3/LarkLogin.xcframework.zip",
-            checksum: "ea7d40a41ea709125df738a3059e69a66e2f016dd3c91d5c7bdf29799150c4d8"
+            checksum: "5a78723a30fa339bba4b1372be1c4d22fe9f4c93e28ce1d7513e67f8b8727727"
         )
     ]
 )
