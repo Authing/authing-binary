@@ -22,7 +22,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "WeCom",
-            url: "https://github.com/Authing/authing-binary/releases/download/wecom-1.0.1/WeCom.xcframework.zip",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.0.1/WeCom.xcframework.zip",
             checksum: "d0722f8c1b132856e19191e5a2f1dbbc52ffd04bbc5267d6ebb3402fcfc64941"
         ),
         .binaryTarget(
