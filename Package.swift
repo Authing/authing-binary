@@ -10,7 +10,8 @@ let package = Package(
     products: [
         .library(name: "Wechat", targets: ["Wechat"]),
         .library(name: "WeCom", targets: ["WeCom"]),
-        .library(name: "OneAuth", targets: ["OneAuth"])
+        .library(name: "OneAuth", targets: ["OneAuth"]),
+        .library(name: "LarkLogin", targets: ["LarkLogin"])
     ],
     dependencies: [
     ],
@@ -29,6 +30,11 @@ let package = Package(
             name: "OneAuth",
             url: "https://github.com/Authing/authing-binary/releases/download/1.0.2/OneAuth.xcframework.zip",
             checksum: "b0e5026e8f5cdd7324c0b2075d7cd5fc9bbdb834d2d267a11c1fe2812c39c3b0"
+        ),
+        .binaryTarget(
+            name: "LarkLogin",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.3/LarkLogin.xcframework.zip",
+            checksum: "ea7d40a41ea709125df738a3059e69a66e2f016dd3c91d5c7bdf29799150c4d8"
         )
     ]
 )
