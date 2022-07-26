@@ -22,12 +22,12 @@ let package = Package(
         ),
         .binaryTarget(
             name: "WeCom",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.0.0.1/WeCom.xcframework.zip",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.1/WeCom.xcframework.zip",
             checksum: "d0722f8c1b132856e19191e5a2f1dbbc52ffd04bbc5267d6ebb3402fcfc64941"
         ),
         .binaryTarget(
             name: "OneAuth",
-            url: "https://github.com/Authing/authing-binary/releases/download/oneauth-1.0.9/OneAuth.xcframework.zip",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.2/OneAuth.xcframework.zip",
             checksum: "b0e5026e8f5cdd7324c0b2075d7cd5fc9bbdb834d2d267a11c1fe2812c39c3b0"
         )
     ]
