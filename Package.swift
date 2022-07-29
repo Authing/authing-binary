@@ -18,18 +18,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Wechat",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.0.0/Wechat.xcframework.zip",
-            checksum: "f75ed2933f9e0bad9ab6f497b4835feeb3069eb11bd2faef2193908fd780d98a"
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.4/Wechat.xcframework.zip",
+            checksum: "a0db2acd9dd5f2847aacc2cb28caa93b5acb79d0d36e2b5c25eb39f096e43566"
         ),
         .binaryTarget(
             name: "WeCom",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.0.1/WeCom.xcframework.zip",
-            checksum: "d0722f8c1b132856e19191e5a2f1dbbc52ffd04bbc5267d6ebb3402fcfc64941"
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.4/WeCom.xcframework.zip",
+            checksum: "c21aceb4c1ee98562f772346d49b95cd23785be3b753303a5af4469ba15db2e6"
         ),
         .binaryTarget(
             name: "OneAuth",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.0.2/OneAuth.xcframework.zip",
-            checksum: "b0e5026e8f5cdd7324c0b2075d7cd5fc9bbdb834d2d267a11c1fe2812c39c3b0"
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.4/OneAuth.xcframework.zip",
+            checksum: "e60cecd6377b852c8d8f649a3c899eae535a3777556f1f013c5d832def1f62c7"
         ),
         .binaryTarget(
             name: "LarkLogin",
