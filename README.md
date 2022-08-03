@@ -19,10 +19,10 @@ English | [简体中文](./README-zh_CN.md)
 
 
 ## Introduction
-WeChat Provides the iOS SDK WeChat authorized login function
-WeCom Provides the iOS SDK WeCom authorization login function
-OneAuth Provides the one-click quick login function
-LarkLogin Provides the iOS SDK LarkSSO login function
+- WeChat Provides the iOS SDK WeChat user authentication and user authorization
+- WeCom Provides the iOS SDK WeCom user authentication and user authorization
+- OneAuth Provides the one-click quick login function
+- LarkLogin Provides the iOS SDK Lark user authentication and user authorization
 
 ## Documentation
 
