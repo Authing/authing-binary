@@ -9,14 +9,9 @@
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-success" alt="License"></a>
   <a href="javascript:;"><img src="https://img.shields.io/badge/PRs-welcome-green"></a>
 <br/>
-
-<br>
-
-English | [简体中文](./README-zh_CN.md)
-
-<br>
 </div>
 
+English | [简体中文](./README-zh_CN.md)
 
 ## Introduction
 - WeChat Provides the iOS SDK WeChat user authentication and user authorization
