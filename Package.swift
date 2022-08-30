@@ -11,7 +11,8 @@ let package = Package(
         .library(name: "Wechat", targets: ["Wechat"]),
         .library(name: "WeCom", targets: ["WeCom"]),
         .library(name: "OneAuth", targets: ["OneAuth"]),
-        .library(name: "LarkLogin", targets: ["LarkLogin"])
+        .library(name: "LarkLogin", targets: ["LarkLogin"]),
+        .library(name: "Google", targets: ["Google"])
     ],
     dependencies: [
     ],
