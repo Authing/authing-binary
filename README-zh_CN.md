@@ -11,12 +11,9 @@
 <br/>
 
 <br>
+</div>
 
 [English](./README.md) | 简体中文
-
-<br>
-
-</div>
 
 ## 简介
 

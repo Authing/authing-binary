@@ -9,20 +9,15 @@
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-success" alt="License"></a>
   <a href="javascript:;"><img src="https://img.shields.io/badge/PRs-welcome-green"></a>
 <br/>
-
-<br>
+</div>
 
 English | [简体中文](./README-zh_CN.md)
 
-<br>
-</div>
-
-
 ## Introduction
-- WeChat Provides the iOS SDK WeChat user authentication and user authorization
-- WeCom Provides the iOS SDK WeCom user authentication and user authorization
-- OneAuth Provides the one-click quick login function
-- LarkLogin Provides the iOS SDK Lark user authentication and user authorization
+- WeChat provides the WeChat SDK user authentication and user authorization
+- WeCom provides the WeCom SDK user authentication and user authorization
+- OneAuth provides the one-click quick login function
+- LarkLogin provides the Lark SDK user authentication and user authorization
 
 ## Documentation
 
