@@ -18,6 +18,7 @@ English | [简体中文](./README-zh_CN.md)
 - WeCom provides the WeCom SDK user authentication and user authorization
 - OneAuth provides the one-click quick login function
 - LarkLogin provides the Lark SDK user authentication and user authorization
+- Google provides the Google SDK user authentication and user authorization
 
 ## Documentation
 
