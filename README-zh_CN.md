@@ -17,11 +17,12 @@
 
 ## 简介
 
-Authing-binary 整合 Authing 多种语言的二进制包，让开发者更纯粹的接入 Authing 身份认证和授权服务。
-- Guard-iOS WeChat 提供 iOS SDK 微信授权登录功能
-- Guard-iOS WeCom 提供 iOS SDK 企业微信授权登录功能
-- Guard-iOS OneAuth 提供 iOS SDK 手机号一键登录功能
-- Guard-iOS LarkLogin 提供 iOS SDK 飞书授权登录功能
+Authing-binary 整合了 Guard-iOS 的第三方身份源二进制包，让开发者低耦合，更纯粹的接入 Authing 身份认证和授权服务。
+- WeChat 提供 iOS SDK 微信授权登录功能
+- WeCom 提供 iOS SDK 企业微信授权登录功能
+- OneAuth 提供 iOS SDK 手机号一键登录功能
+- LarkLogin 提供 iOS SDK 飞书授权登录功能
+- Google 提供 iOS SDK 谷歌登录功能
 
 ## 文档
 
