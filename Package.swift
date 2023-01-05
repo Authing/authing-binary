@@ -19,28 +19,28 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Wechat",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.0.8/Wechat.xcframework.zip",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.9/Wechat.xcframework.zip",
             checksum: "c5184dc166f43d4504737623820d303e43df07a34f9df9130c3b4d10b1d3f03a"
         ),
         .binaryTarget(
             name: "WeCom",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.0.8/WeCom.xcframework.zip",
-            checksum: "e15959f65d96ea4a240c66c59925957f4c86b5695671148a433f69b34d6d97f6"
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.9/WeCom.xcframework.zip",
+            checksum: "c8f59e16f056d2e4068381be93709a45f85851fb4640e12d0a92346e3911c5f9"
         ),
         .binaryTarget(
             name: "OneAuth",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.0.8/OneAuth.xcframework.zip",
-            checksum: "ab2d4352b394dcc6389681caafdaef06b09f663e9cce1f5494b01ff7be27e93b"
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.9/OneAuth.xcframework.zip",
+            checksum: "86e5c8da2b3321455828bf9fc13a78653e98612edd9d76281b057a0c338376b1"
         ),
         .binaryTarget(
             name: "LarkLogin",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.0.8/LarkLogin.xcframework.zip",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.9/LarkLogin.xcframework.zip",
             checksum: "03cd73e61a4cab4b2eb9268eeda5052b7f7c49e701e078c62a518d5b8bd0384f"
         ),
         .binaryTarget(
             name: "Google",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.0.8/Google.xcframework.zip",
-            checksum: "7f893d9b4a2ba8d0c78fea1be1268b220c1166193844a843e63249b8682e7727"
+            url: "https://github.com/Authing/authing-binary/releases/download/1.0.9/Google.xcframework.zip",
+            checksum: "c6f4c5a0be950e59e949abf5cf3599c76779a4894ab045c57f2bb08d7969ed6d"
         )
     ]
 )
