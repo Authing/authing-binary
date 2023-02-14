@@ -41,7 +41,7 @@ let package = Package(
             name: "Google",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.0/Google.xcframework.zip",
             checksum: "7f893d9b4a2ba8d0c78fea1be1268b220c1166193844a843e63249b8682e7727"
-        )
+        ),
         .binaryTarget(
             name: "Facebook",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.0/Facebook.xcframework.zip",
