@@ -21,7 +21,7 @@ let package = Package(
         .binaryTarget(
             name: "Wechat",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.0/Wechat.xcframework.zip",
-            checksum: "52fe6376541c74730125a194f6ad5bc38cfafcb5cebd74ba21c33e3ce1204ff6"
+            checksum: "3cffeefcfec1d6310b12b6a12d68dfb8a505cc92e83b0289736e4f024d61a2d8"
         ),
         .binaryTarget(
             name: "WeCom",
@@ -46,7 +46,7 @@ let package = Package(
         .binaryTarget(
             name: "Facebook",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.0/Facebook.xcframework.zip",
-            checksum: "8484792f41a3be23fd97927d470691de4161d79da384ca106c5348a80aa7e5f6"
+            checksum: "3be6a0b403a371d42c76d98ea5d98997839d5396732c2081f19579b79bd3bc42"
         )
     ]
 )
