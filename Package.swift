@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "LarkLogin", targets: ["LarkLogin"]),
         .library(name: "Google", targets: ["Google"]),
         .library(name: "Facebook", targets: ["Facebook"]),
-        .library(name: "Webauthn", targets: ["Webauthn"])
+        .library(name: "WebAuthn", targets: ["WebAuthn"])
     ],
     dependencies: [
     ],
@@ -50,8 +50,8 @@ let package = Package(
             checksum: "3be6a0b403a371d42c76d98ea5d98997839d5396732c2081f19579b79bd3bc42"
         ),
         .binaryTarget(
-            name: "Webauthn",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.1.1/Webauthn.xcframework.zip",
+            name: "WebAuthn",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.1/WebAuthn.xcframework.zip",
             checksum: "2a0594c56321db98979cab2620c2ada966a5683201a641a5696e0a9ef85646f6"
         )
     ]
