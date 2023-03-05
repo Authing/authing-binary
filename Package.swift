@@ -14,6 +14,9 @@ let package = Package(
         .library(name: "LarkLogin", targets: ["LarkLogin"]),
         .library(name: "Google", targets: ["Google"]),
         .library(name: "Facebook", targets: ["Facebook"]),
+        .library(name: "Tencent", targets: ["Tencent"]),
+        .library(name: "Weibo", targets: ["Weibo"]),
+        .library(name: "Baidu", targets: ["Baidu"]),
         .library(name: "WebAuthn", targets: ["WebAuthn"])
     ],
     dependencies: [
@@ -21,7 +24,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Wechat",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.1.0/Wechat.xcframework.zip",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.1/Wechat.xcframework.zip",
             checksum: "3cffeefcfec1d6310b12b6a12d68dfb8a505cc92e83b0289736e4f024d61a2d8"
         ),
         .binaryTarget(
@@ -48,6 +51,21 @@ let package = Package(
             name: "Facebook",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.1/Facebook.xcframework.zip",
             checksum: "3be6a0b403a371d42c76d98ea5d98997839d5396732c2081f19579b79bd3bc42"
+        ),
+        .binaryTarget(
+            name: "Tencent",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.2/Facebook.xcframework.zip",
+            checksum: "1f1c030e84e1948aaf6c3e126beb71245b1b8d2f8d237e58b34465cec3e3804a"
+        ),
+        .binaryTarget(
+            name: "Weibo",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.2/Facebook.xcframework.zip",
+            checksum: "8a2a42e69298722eb9e8e72d88eff06fcb1290c971bc2db96a40e8c720e5ad15"
+        ),
+        .binaryTarget(
+            name: "Baidu",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.2/Facebook.xcframework.zip",
+            checksum: "b3cf244393db35bb38e216f8c2ddfd611962a59b0a84d14ae9f83ed62a5fd4bd"
         ),
         .binaryTarget(
             name: "WebAuthn",
