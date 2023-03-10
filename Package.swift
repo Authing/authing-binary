@@ -17,7 +17,9 @@ let package = Package(
         .library(name: "Tencent", targets: ["Tencent"]),
         .library(name: "Weibo", targets: ["Weibo"]),
         .library(name: "Baidu", targets: ["Baidu"]),
-        .library(name: "WebAuthn", targets: ["WebAuthn"])
+        .library(name: "WebAuthn", targets: ["WebAuthn"]),
+        .library(name: "DingTalk", targets: ["DingTalk"]),
+        .library(name: "Linkedin", targets: ["Linkedin"])
     ],
     dependencies: [
     ],
@@ -71,6 +73,16 @@ let package = Package(
             name: "WebAuthn",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.1/WebAuthn.xcframework.zip",
             checksum: "2a0594c56321db98979cab2620c2ada966a5683201a641a5696e0a9ef85646f6"
+        ),
+        .binaryTarget(
+            name: "DingTalk",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.3/DingTalk.xcframework.zip",
+            checksum: "a27517278002ee7618d58f9fad80f940688453bb0442411c70d16575434e33e6"
+        ),
+        .binaryTarget(
+            name: "Linkedin",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.3/Linkedin.xcframework.zip",
+            checksum: "11de6c2e408690cf457efe65d86ef732b56059625f4208d38f8256f3b2769089"
         )
     ]
 )
