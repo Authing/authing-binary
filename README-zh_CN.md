@@ -18,6 +18,7 @@
 ## 简介
 
 Authing-binary 整合了 Guard-iOS 的第三方插件包，让开发者低耦合，更纯粹的接入 Authing 身份认证和授权服务。
+
 第三方身份源：
 - Wechat 微信授权登录
 - WeCom 企业微信授权登录
