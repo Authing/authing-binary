@@ -14,11 +14,9 @@
 English | [简体中文](./README-zh_CN.md)
 
 ## Introduction
-- WeChat provides the WeChat SDK user authentication and user authorization
-- WeCom provides the WeCom SDK user authentication and user authorization
-- OneAuth provides the one-click quick login function
-- LarkLogin provides the Lark SDK user authentication and user authorization
-- Google provides the Google SDK user authentication and user authorization
+Authing Guard-iOS component SPM(Swift Package Manager) repository:
+Social identities: Wechat，WeCom, Lark, Google, Facebook, Tencent, Weibo, Baidu, DingTalk, LinkedIn, OneAuth(Mobile phone number login).
+Biometrics authentication: WebAuthn.
 
 ## Documentation
 
