@@ -72,7 +72,7 @@ let package = Package(
         .binaryTarget(
             name: "WebAuthn",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.1/WebAuthn.xcframework.zip",
-            checksum: "2a0594c56321db98979cab2620c2ada966a5683201a641a5696e0a9ef85646f6"
+            checksum: "6d9b7b4c1d09fcf9419de86113bf9945e126961f18bbe12085dbe97cfaa70c7a"
         ),
         .binaryTarget(
             name: "DingTalk",
