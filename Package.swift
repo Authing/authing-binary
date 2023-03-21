@@ -19,7 +19,9 @@ let package = Package(
         .library(name: "Baidu", targets: ["Baidu"]),
         .library(name: "WebAuthn", targets: ["WebAuthn"]),
         .library(name: "DingTalk", targets: ["DingTalk"]),
-        .library(name: "Linkedin", targets: ["Linkedin"])
+        .library(name: "Linkedin", targets: ["Linkedin"]),
+        .library(name: "Github", targets: ["Github"]),
+        .library(name: "Gitee", targets: ["Gitee"])
     ],
     dependencies: [
     ],
@@ -83,6 +85,16 @@ let package = Package(
             name: "Linkedin",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.3/Linkedin.xcframework.zip",
             checksum: "11de6c2e408690cf457efe65d86ef732b56059625f4208d38f8256f3b2769089"
+        ),
+        .binaryTarget(
+            name: "Github",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.4/Github.xcframework.zip",
+            checksum: "779b690454e2efa0d5f3af149249e6453c9e567a48cfed2bebef995f6a66bbcd"
+        ),
+        .binaryTarget(
+            name: "Gitee",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.4/Gitee.xcframework.zip",
+            checksum: "387ec981e99470658d3a29837bb20268dbe0b8819c9173ff28f978f5562490c9"
         )
     ]
 )
