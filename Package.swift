@@ -89,7 +89,7 @@ let package = Package(
         .binaryTarget(
             name: "Github",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.4/Github.xcframework.zip",
-            checksum: "779b690454e2efa0d5f3af149249e6453c9e567a48cfed2bebef995f6a66bbcd"
+            checksum: "556e3ac1b2ea6fb7a34ab8e175456abf12eed7c415bef80661f40fa61382c6fc"
         ),
         .binaryTarget(
             name: "Gitee",
