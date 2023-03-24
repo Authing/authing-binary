@@ -21,7 +21,11 @@ let package = Package(
         .library(name: "DingTalk", targets: ["DingTalk"]),
         .library(name: "Linkedin", targets: ["Linkedin"]),
         .library(name: "Github", targets: ["Github"]),
-        .library(name: "Gitee", targets: ["Gitee"])
+        .library(name: "Gitee", targets: ["Gitee"]),
+        .library(name: "GitLab", targets: ["GitLab"]),
+        .library(name: "Douyin", targets: ["Douyin"]),
+        .library(name: "Kuaishou", targets: ["Kuaishou"]),
+        .library(name: "Xiaomi", targets: ["Xiaomi"])
     ],
     dependencies: [
     ],
@@ -95,6 +99,26 @@ let package = Package(
             name: "Gitee",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.4/Gitee.xcframework.zip",
             checksum: "387ec981e99470658d3a29837bb20268dbe0b8819c9173ff28f978f5562490c9"
+        ),
+        .binaryTarget(
+            name: "GitLab",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.5/GitLab.xcframework.zip",
+            checksum: "668d6fc73312bf7bd9723ed7482883119569070a22f48df08f4fc6b870087522"
+        ),
+        .binaryTarget(
+            name: "Douyin",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.5/Douyin.xcframework.zip",
+            checksum: "1c2ed7a3bbf715dbea0801f9e3582e4a101fc3528841ad78de49e3de1f6e63ee"
+        ),
+        .binaryTarget(
+            name: "Kuaishou",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.5/Kuaishou.xcframework.zip",
+            checksum: "62398d7ff2c03496441d63500b6af522ad28dad53b815ffcb5a13ce464e2fb6c"
+        ),
+        .binaryTarget(
+            name: "Xiaomi",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.5/Xiaomi.xcframework.zip",
+            checksum: "fbf38ebd2192f6b054627f8f2e7c4213fe4416b7692b209475c9e71d9f4d6425"
         )
     ]
 )
