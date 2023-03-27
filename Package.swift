@@ -118,7 +118,7 @@ let package = Package(
         .binaryTarget(
             name: "Xiaomi",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.5/Xiaomi.xcframework.zip",
-            checksum: "fbf38ebd2192f6b054627f8f2e7c4213fe4416b7692b209475c9e71d9f4d6425"
+            checksum: "2c98658cf00ab77c8f94e762cce57e7ab6e504dda501f959b3ff81eabfcfade3"
         )
     ]
 )
