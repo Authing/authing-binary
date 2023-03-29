@@ -25,7 +25,8 @@ let package = Package(
         .library(name: "GitLab", targets: ["GitLab"]),
         .library(name: "Douyin", targets: ["Douyin"]),
         .library(name: "Kuaishou", targets: ["Kuaishou"]),
-        .library(name: "Xiaomi", targets: ["Xiaomi"])
+        .library(name: "Xiaomi", targets: ["Xiaomi"]),
+        .library(name: "AuthingOTP", targets: ["AuthingOTP"])
     ],
     dependencies: [
     ],
@@ -119,6 +120,11 @@ let package = Package(
             name: "Xiaomi",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.5/Xiaomi.xcframework.zip",
             checksum: "2c98658cf00ab77c8f94e762cce57e7ab6e504dda501f959b3ff81eabfcfade3"
+        ),
+        .binaryTarget(
+            name: "AuthingOTP",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.6/Xiaomi.xcframework.zip",
+            checksum: "cae1c116c353cd0144ba3dd5ad15c212203fdc46afb276afc43ad3bc3c921636"
         )
     ]
 )
