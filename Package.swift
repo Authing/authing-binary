@@ -125,8 +125,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthingOTP",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.1.6/AuthingOTP.xcframework.zip",
-            checksum: "cae1c116c353cd0144ba3dd5ad15c212203fdc46afb276afc43ad3bc3c921636"
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.7/AuthingOTP.xcframework.zip",
+            checksum: "de772b0337b1596c2a66a22b39695dca26bf24f3e01f8649d69cf375a5fc46a9"
         ),
         .binaryTarget(
             name: "Line",
