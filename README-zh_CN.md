@@ -17,26 +17,16 @@
 
 ## 简介
 
-Authing-binary 整合了 Guard-iOS 的第三方插件包，让开发者低耦合，更纯粹的接入 Authing 身份认证和授权服务。
+Authing-binary 整合了 Guard-iOS 的插件包，让开发者低耦合，更纯粹的接入 Authing 身份认证和授权服务。
 
-第三方身份源：
-- Wechat 微信授权登录
-- WeCom 企业微信授权登录
-- Lark 飞书授权登录
-- Google 谷歌授权登录
-- Facebook 脸书授权登录
-- Tencent QQ 授权登录
-- Weibo 微博授权登录
-- Baidu 百度授权登录
-- DingTalk 钉钉授权登录
-- LinkedIn 领英授权登录
-- OneAuth(Mobile phone number login) 手机号一键登录
-
-生物认证: WebAuthn.
+其中包括：
+[第三方身份源](https://docs.authing.cn/v2/reference/sdk-for-ios/social/)
+[WebAuthn 生物认证](https://docs.authing.cn/v2/reference/sdk-for-ios/webauthn.html)
+[Authing OTP](https://docs.authing.cn/v2/reference/sdk-for-ios/scenario/otp.html)
 
 ## 文档
 
-[中文文档请移步至这里查看](https://docs.authing.cn/v2/reference/sdk-for-ios/social/)
+[中文文档请移步至这里查看](https://docs.authing.cn/v2/reference/sdk-for-ios/)
 
 ## 常见问题
 

@@ -26,7 +26,9 @@ let package = Package(
         .library(name: "Douyin", targets: ["Douyin"]),
         .library(name: "Kuaishou", targets: ["Kuaishou"]),
         .library(name: "Xiaomi", targets: ["Xiaomi"]),
-        .library(name: "AuthingOTP", targets: ["AuthingOTP"])
+        .library(name: "AuthingOTP", targets: ["AuthingOTP"]),
+        .library(name: "Line", targets: ["Line"]),
+        .library(name: "Slack", targets: ["Slack"])
     ],
     dependencies: [
     ],
@@ -125,6 +127,16 @@ let package = Package(
             name: "AuthingOTP",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.6/Xiaomi.xcframework.zip",
             checksum: "cae1c116c353cd0144ba3dd5ad15c212203fdc46afb276afc43ad3bc3c921636"
+        ),
+        .binaryTarget(
+            name: "Line",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.7/Xiaomi.xcframework.zip",
+            checksum: "5f7cee7bc72df4e4c4c989bb57f7743951c1e4ee6607c6b616213fd9f0a38f80"
+        ),
+        .binaryTarget(
+            name: "Slack",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.7/Xiaomi.xcframework.zip",
+            checksum: "0043c9d31aafd266e84f23ebe7c96109b0befaced3ee9c74b91ac6d964f9ad0c"
         )
     ]
 )

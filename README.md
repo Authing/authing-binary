@@ -14,22 +14,12 @@
 English | [简体中文](./README-zh_CN.md)
 
 ## Introduction
-Authing Guard-iOS component SPM(Swift Package Manager) repository:
+Authing-binary is a plug-in package of Guard-iOS.
 
-Social identities: 
-- Wechat
-- WeCom
-- Lark
-- Google
-- Facebook
-- Tencent
-- Weibo
-- Baidu
-- DingTalk
-- LinkedIn
-- OneAuth(Mobile phone number login)
-
-Biometrics authentication: WebAuthn.
+Contains:
+[Third-party identity source](https://docs.authing.cn/v2/reference/sdk-for-ios/social/)
+[WebAuthn Biometric Authentication](https://docs.authing.cn/v2/reference/sdk-for-ios/webauthn.html)
+[Authing OTP](https://docs.authing.cn/v2/reference/sdk-for-ios/scenario/otp.html)
 
 ## Documentation
 
