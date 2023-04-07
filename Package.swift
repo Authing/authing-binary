@@ -28,7 +28,8 @@ let package = Package(
         .library(name: "Xiaomi", targets: ["Xiaomi"]),
         .library(name: "AuthingOTP", targets: ["AuthingOTP"]),
         .library(name: "Line", targets: ["Line"]),
-        .library(name: "Slack", targets: ["Slack"])
+        .library(name: "Slack", targets: ["Slack"]),
+        .library(name: "Amazon", targets: ["Amazon"])
     ],
     dependencies: [
     ],
@@ -137,6 +138,11 @@ let package = Package(
             name: "Slack",
             url: "https://github.com/Authing/authing-binary/releases/download/1.1.7/Slack.xcframework.zip",
             checksum: "0043c9d31aafd266e84f23ebe7c96109b0befaced3ee9c74b91ac6d964f9ad0c"
+        ),
+        .binaryTarget(
+            name: "Amazon",
+            url: "https://github.com/Authing/authing-binary/releases/download/1.1.8/Amazon.xcframework.zip",
+            checksum: "1f01a261e1d02551575c5000ee2e61874f932e6ebdb0370824b367d61c37f136"
         )
     ]
 )
