@@ -36,8 +36,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Wechat",
-            url: "https://github.com/Authing/authing-binary/releases/download/1.1.9/Wechat.xcframework.zip",
-            checksum: "e37d3ea5ef4c75e2171fb1c5973b15baaaef0cf68a23154081b02242fa0bd469"
+            url: "https://github.com/Authing/authing-binary/releases/download/1.2.0/Wechat.xcframework.zip",
+            checksum: "738d794e737622dff8749565715a8d65c14ab01b1f0277a55333b61fbdfa9024"
         ),
         .binaryTarget(
             name: "WeCom",
